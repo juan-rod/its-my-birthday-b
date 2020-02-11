@@ -1,12 +1,17 @@
+#app {
+  overflow-y: hidden;
+
+}
 .home {
-  // border: 1px solid red;
-  height: 100vh;
+  // height: 100vh;
+  height: 100%;
   width: calc(800px * 3);
   position: relative;
   display: flex;
   flex-direction: row;
   .page-one,.page-two, .page-three {
-    height: 100vh;
+    // height: 100vh;
+    height: 100%;
     width: 100vw;
     max-width: 800px;
     min-width: 800px;
