@@ -1,30 +1,26 @@
 <template>
   <div class="home">
-    <bday-logo></bday-logo>
-    <arrow-left/>
-    <arrow-down/>
-    <arrow-up/>
-    <arrow-right/>
+    <bday-logo class="front"></bday-logo>
+    <bday-logo class="back"></bday-logo>
+    <page-one/>
+    <page-two/>
+    <page-three/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import BdayLogo from '@/components/BdayLogo.vue'
-import ArrowLeft from '@/components/ArrowLeft.vue'
-import ArrowDown from '@/components/ArrowDown.vue'
-import ArrowUp from '@/components/ArrowUp.vue'
-import ArrowRight from '@/components/ArrowRight.vue'
-// import InvitePage from '@/components/Invite.vue'
+import PageOne from '@/components/PageOne.vue'
+import PageTwo from '@/components/PageTwo.vue'
+import PageThree from '@/components/PageThree.vue'
 export default {
   name: 'Home',
   components: {
     BdayLogo,
-    ArrowLeft,
-    ArrowDown,
-    ArrowUp,
-    ArrowRight
-    // InvitePage
+    PageOne,
+    PageTwo,
+    PageThree
   }
 }
 </script>

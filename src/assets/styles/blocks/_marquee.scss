@@ -1,0 +1,33 @@
+.marquee {
+  // width: 100%;
+  width: 800px;
+  // border: 3px solid teal;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  div {
+    // display: block;
+    display: flex;
+    flex-direction: row;
+    width: calc(800px * 3);
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 50s linear infinite;
+    span {
+      // display: inline;
+      @extend %ff__SpaceMono--700;
+      white-space: nowrap;
+      font-size: 22px;
+      width: 800px;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+  }
+}
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}

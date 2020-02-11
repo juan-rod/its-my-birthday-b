@@ -1,13 +1,13 @@
 <template>
   <div class="bday-logo">
     <!-- IBMPLEX 700-->
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
-    <p class="font-3">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
+    <p class="bday-font">it's my birthday, bitch!</p>
   </div>
 </template>
 

@@ -72,6 +72,9 @@
 @mixin imageBorderBoxShadow {
   box-shadow: 12px 16px 0px 0 cc(bg), 16px 20px 0px 0 cc(ghost);
 }
+@mixin imageBorderBoxShadowInverted {
+  box-shadow: -12px 16px 0px 0 #1d1f21, -16px 20px 0px 0 #fcfdff;
+}
 
 @mixin scrollbars($size, $border-size, $border-color, $foreground-color, $background-color:$foreground-color) {
   // Google Chrome
