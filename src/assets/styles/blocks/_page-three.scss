@@ -6,6 +6,12 @@
   padding: 0 30px 0 0;
   overflow: hidden;
   position: relative;
+  .a-note {
+    @extend %ff__IBMPlexSerif--700;
+    @include imageBorderBoxShadowInverted;
+    @include imageBorderBoxShadow;
+    margin-right: 26px;
+  }
   .place {
     display: flex;
     flex-direction: column;

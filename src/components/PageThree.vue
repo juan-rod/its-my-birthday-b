@@ -3,13 +3,14 @@
     <!-- <div class="img img-5">
       <img src="../assets/video/juan1.gif" alt="">
     </div> -->
-    <!-- <div class="date-number">
-      <div class="calendar">
-        <p>february</p>
-        <p>16</p>
-        <p>sunday</p>
-      </div>
-    </div> -->
+    <div class="a-note">
+      <p>last minute.</p>
+      <p>i know.</p>
+      <p>bday came out of no where.</p>
+      <p>this is come and go.</p>
+      <p>call me, beep me </p>
+      <p>if you wanna reach me.</p>
+    </div>
     <div class="place">
       <div class="restaurant">
         <p>TAKOBA</p>
