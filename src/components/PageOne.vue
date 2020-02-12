@@ -1,9 +1,11 @@
 <template>
   <div class="page-one">
+    <!-- <div id="block"></div> -->
     <div id="overlay"></div>
     <div class="intro">
-      <span>Lets</span>
-      <span>hang out!</span>
+      <span class="intro">Lets</span>
+      <span class="intro">hang out!</span>
+      <!-- <span class="intro">out!</span> -->
     </div>
     <div class="img img-1">
       <img src="../assets/video/juan2.gif" alt="">
