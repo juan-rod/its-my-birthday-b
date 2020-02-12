@@ -14,10 +14,11 @@
     </div>
     <div class="place">
       <div class="restaurant">
-        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
-        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
-        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
-        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
+        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank" class="restaurant-overlay"></a>
+        <p>TAKOBA</p>
+        <p>TAKOBA</p>
+        <p>TAKOBA</p>
+        <p>TAKOBA</p>
       </div>
       <p class="time">1:30pm</p>
       <p class="time">til</p>

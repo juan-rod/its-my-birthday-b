@@ -27,7 +27,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    height: 100%;
     .restaurant {
+      position: relative;
+      &-overlay {
+        position: absolute;
+        background: transparent;
+        // border: 1px solid red;
+        top: 0;
+        left: 0;
+        z-index: 11;
+        transition: all 450ms ease-in;
+        &:hover {
+          background: rgba(236, 204, 188, 0.288);
+          filter: sepia(1);
+        }
+      }
       background: cc(bg);
       @include imageBorderBoxShadowInverted;
       a {

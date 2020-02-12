@@ -3,8 +3,8 @@
     <!-- <div id="block"></div> -->
     <div id="overlay"></div>
     <div class="intro">
-      <span class="intro">Lets</span>
-      <span class="intro">hang out!</span>
+      <span>Lets</span>
+      <span>hang out!</span>
       <!-- <span class="intro">out!</span> -->
     </div>
     <div class="img img-1">
