@@ -8,7 +8,8 @@
     grid-row: 3/14;
     grid-column: 3/-1;
     transform-style: preserve-3d;
-    transform: perspective(9cm) skewY(10deg);
+    transform: skewY(10deg);
+    // transform: perspective(9cm) skewY(10deg);
     .bday-logo {
       position: absolute;
       .bday-font {
