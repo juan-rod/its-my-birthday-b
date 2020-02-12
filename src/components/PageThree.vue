@@ -1,5 +1,6 @@
 <template>
   <div class="page-three">
+    <div id="overlay"></div>
     <!-- <div class="img img-5">
       <img src="../assets/video/juan1.gif" alt="">
     </div> -->
@@ -13,10 +14,10 @@
     </div>
     <div class="place">
       <div class="restaurant">
-        <p>TAKOBA</p>
-        <p>TAKOBA</p>
-        <p>TAKOBA</p>
-        <p>TAKOBA</p>
+        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
+        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
+        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
+        <a href="https://goo.gl/maps/JwJiYGenhs4SSpK5A" target="_blank"><p>TAKOBA</p></a>
       </div>
       <p class="time">1:30pm</p>
       <p class="time">til</p>

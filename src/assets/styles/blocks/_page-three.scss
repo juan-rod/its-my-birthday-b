@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 30px 0 0;
+  // padding: 0 30px 0 0;
   overflow: hidden;
   position: relative;
   .a-note {
@@ -20,6 +20,14 @@
     .restaurant {
       background: cc(bg);
       @include imageBorderBoxShadowInverted;
+      a {
+        height: 100%;
+        width: 100%;
+        display: block;
+      }
+      p:hover {
+        color:#ECCCBC;
+      }
     }
     p {
       color:$theme-color-1;
@@ -30,6 +38,12 @@
           margin-top: 20px;
         }
         color: $theme-color-4;
+      }
+      &.blackout {
+        transition: all 500ms ease-in;
+      }
+      &.blackout:hover {
+        filter: blur(8px)
       }
       &.blackout-2 {
         filter: blur(1px)

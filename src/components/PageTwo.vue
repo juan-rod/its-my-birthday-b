@@ -1,5 +1,6 @@
 <template>
   <div class="page-two">
+    <div id="overlay"></div>
     <date-marquee />
   </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
   <div class="page-one">
+    <div id="overlay"></div>
     <div class="intro">
       <span>Lets</span>
       <span>hang out!</span>
