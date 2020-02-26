@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <!-- <bday-logo class="front"></bday-logo>
-    <bday-logo class="back"></bday-logo> -->
+    <post-date />
     <page-one/>
     <page-two/>
     <page-three/>
@@ -14,13 +13,14 @@
 import PageOne from '@/components/PageOne.vue'
 import PageTwo from '@/components/PageTwo.vue'
 import PageThree from '@/components/PageThree.vue'
+import PostDate from '@/components/PostDate.vue'
 export default {
   name: 'Home',
   components: {
-    // BdayLogo,
     PageOne,
     PageTwo,
-    PageThree
+    PageThree,
+    PostDate
   }
 }
 </script>

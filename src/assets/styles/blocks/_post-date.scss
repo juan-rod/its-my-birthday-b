@@ -1,0 +1,10 @@
+.post-date {
+  position: fixed;
+  transform: rotate(-90deg);
+  bottom: 16em;
+  left: -12em;
+  p {
+    font-size: 34px;
+    color: cc(txt,.2);
+  }
+}

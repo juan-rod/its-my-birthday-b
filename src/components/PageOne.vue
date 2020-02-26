@@ -22,7 +22,8 @@
     <!-- <div class="img img-5">
       <img src="../assets/video/juan1.gif" alt="">
     </div> -->
-    <date-marquee />
+    <date-marquee :marquee="'late'"/>
+    <date-marquee :marquee="'sunday'"/>
   </div>
 </template>
 
